@@ -29,5 +29,8 @@ app.use("/graphql", graphqlHTTP({
     rootValue: root,
     graphiql: true,
 }))
-
+// app health endpoint
+app.use("/", (req, res) => {
+    res.send("healthy")
+})
 app.listen( process.env.PORT | 8080 )
