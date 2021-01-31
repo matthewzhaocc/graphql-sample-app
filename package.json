@@ -1,0 +1,28 @@
+{
+  "name": "graphql-sample-app",
+  "version": "1.0.0",
+  "description": "a graphql sample app in express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewzhaocc/graphql-sample-app.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Matthew Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewzhaocc/graphql-sample-app/issues"
+  },
+  "homepage": "https://github.com/matthewzhaocc/graphql-sample-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0"
+  }
+}
